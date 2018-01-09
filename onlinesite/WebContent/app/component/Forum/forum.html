@@ -3,7 +3,38 @@
    <div class="col s12 m8 l9"> 
       <div class="card blue-grey darken-4">
          <div class="card-content white-text">
-            <a class="waves-effect light-blue darken-4 btn-large">Add Forum</a> 
+            <div class="container">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Forum</button>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog  black">
+      <div class="modal-content  black">
+        <div class="row">
+    <form class="col s10">
+      <div class="row">
+        <div class="input-field col s6" >
+          <i class="material-icons prefix">format_align_justify</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Blog Title</label>
+        </div>       
+        </div>
+        <div class="row">
+        <div class="input-field col s6" >
+          <i class="material-icons prefix">border_color</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Description</label>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Add</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        </div> 
+        </div>
+    </form>
+  </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</div> 
                        <div class="card-panel teal">
                        <div class="card-title"><h2>Java</h2></div>
                       <p>Java is a very important language to developers</p>
