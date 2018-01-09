@@ -22,15 +22,15 @@ public class UserController {
    		return mv;
    	}
    	
-/*   @GetMapping("/user/{userId}")	
+  @GetMapping("/user/{userId}")	
    	public ResponseEntity<Reg> getUser(@PathVariable("userId") int regId){   
 	   Reg entity=regDao.find(regId);
    		if (entity == null) {
    			return new ResponseEntity<Reg>(HttpStatus.NOT_FOUND);
    		}		
    		return new ResponseEntity<Reg>(entity, HttpStatus.OK);
-   	}*/
- /*  	
+   	}
+  /*  	
    	@GetMapping(value="/register/{regId}")
    	public @ResponseBody Reg getRegister(@PathVariable("regId") int regId) {
    		Reg entity= regDao.find(regId);

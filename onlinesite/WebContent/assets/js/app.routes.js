@@ -1,10 +1,13 @@
 app.config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
 	$routeProvider.
 when('/blog',{
-	templateUrl:'./ui/blog.html',
+	templateUrl:'./app/component/Blog/blog.html',
+}).
+when('/forum',{
+	templateUrl:'./app/component/Forum/forum.html',
 }).
 when('/',{
-	templateUrl:'./ui/main.html',
+	templateUrl:'./app/component/Login/login.html',
 })
 }]);
 
